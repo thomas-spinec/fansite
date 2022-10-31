@@ -1,0 +1,289 @@
+/* **********************
+        Styles généraux
+********************** */
+header {
+    font-size: 20px;
+    background-color: #e7dfc6;
+}
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color: #e9f1f7;
+    background-color: #2274a5;
+    font-size: 18px;
+    margin: auto;
+}
+footer a {
+    color: #e9f1f7;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0058A2; 
+}
+
+p {
+    font-size: 20px;
+}
+
+/* **********************
+        INDEX
+********************** */
+
+/*  Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.entête {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 20%;
+}
+
+.entête img {
+    width: 80%;
+    height: auto;
+}
+
+nav {
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style-type: none
+}
+
+/*  Main */
+/* Section "hero" */
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section "intro" */
+
+#intro {
+    background-color: #FFF;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+}
+
+#intro2 {
+    width: 85%;
+    margin: auto;
+}
+
+#intro h1 {
+    text-align: center;
+}
+
+/*  Section "sites intéressants" */
+
+#sites_inter {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#sites_inter a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+#sites_inter2 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+}
+#sites_inter h1 {
+    text-align: center;
+}
+
+.site {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.duo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+    padding-bottom: 5%;
+    background-color: #e0e8ee;
+}
+
+.duo img {
+    padding-bottom: 10%;
+}
+
+#fb img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+/* Section "quelques images */
+
+#qlq_images {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#qlq_images2 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+}
+
+#qlq_images2 h1 {
+    text-align: center;
+}
+
+.vidéo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.vidéo video {
+    width: 80%;
+    height: auto;
+}
+
+.photos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.photos img {
+    width: 45%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+/*  Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style-type: none
+}
+
+#index {
+    width: 80%;
+    height: auto;
+}
+
+/* **********************
+        Présentation
+********************** */
+
+.what_how {
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+    padding-bottom: 1%;
+}
+
+.what_how2 {
+    width: 95%;
+    margin: auto;
+
+}
+
+.what_how2 p{
+    padding-bottom: 2%;
+}
+
+aside {
+    width: 40%;
+    padding-left: 1%;
+    margin-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    float: right;
+    box-shadow: inset 0 0 5px 0 #29627e;
+}
+
+.aparté img {
+    width: 100%;
+    height: auto;
+}
+
+.aparté p {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.what_how2 li {
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+.rêglement {
+    padding-bottom: 2%;
+}
