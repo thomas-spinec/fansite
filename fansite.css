@@ -10,6 +10,11 @@ header a {
     text-decoration: none;
 }
 
+header p {
+    font-size: 20px;
+    text-align: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,18 +36,44 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #0058A2; 
 }
 
-p {
+h4 {
     font-size: 20px;
+    font-weight: lighter;
+    color: gray; 
 }
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    color: #0058A2;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+p {
+    font-size: 24px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.séparation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+
+
 
 /* **********************
         INDEX
@@ -64,7 +95,7 @@ header {
 }
 
 .entête img {
-    width: 80%;
+    width: 30%;
     height: auto;
 }
 
@@ -281,9 +312,121 @@ aside {
 }
 
 .what_how2 li {
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 1%;
 }
 .rêglement {
     padding-bottom: 2%;
+}
+
+/* **********************
+        Actualités
+********************** */
+
+.box {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 5px 0px #9f9fa0;
+    border-radius: 15px;
+}
+
+#actus {
+    width: 90%;
+    margin: auto;
+}
+
+#navigation {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #054261;
+}
+
+.match p {
+    font-size: 18px;
+}
+
+.coupe_f {
+    font-weight: bold;
+    color: #1537A9;
+}
+
+.coupe_f_fem {
+    font-weight: bold;
+    color: #EC2FD3;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px #054261;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* *************************
+        Contact
+************************* */
+
+#contact {
+    background-color: #e9f1f7;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#center {
+    text-align: center;
+}
+#formulaire {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+form div {
+padding-bottom: 1%;
+}
+
+form {
+    overflow: hidden;
+}
+
+form div > input, form div > textarea {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(71,74,182,0.12);
+    border-radius: 10px;
+    font-size: 16px;
+}
+form div > input::placeholder,
+ form div > textarea::placeholder {
+    color: #275FA0;
+    text-align: center;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+.simple {
+    text-align: center;
+}
+
+form button {
+    background-color: #275FA0;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-width: 1px;
+    border-radius: 15px;
+    float: right;
 }
