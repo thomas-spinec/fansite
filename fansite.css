@@ -1,10 +1,21 @@
 /* **********************
         Styles généraux
 ********************** */
+
+/* font-family: 'ABeeZee', sans-serif;
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Wendy One', sans-serif; */
+
+
 header {
     font-size: 20px;
     background-color: #e7dfc6;
 }
+
+nav ul li{
+    padding-bottom: 2%;
+}
+
 header a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -29,12 +40,29 @@ body {
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #816c61;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e7dfc6;
+} 
+
 footer {
     color: #e9f1f7;
     background-color: #2274a5;
     font-size: 18px;
     margin: auto;
 }
+
+#index ul li {
+    padding-bottom: 2%;
+}
+
 footer a {
     position: relative;
     color: #e9f1f7;
@@ -51,7 +79,7 @@ footer a:after {
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
+    bottom: -5px;
     transition: 0.3s;
 }
 
@@ -65,26 +93,31 @@ footer a:hover:after {
 }
 
 h1 {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 36px;
 }
 
 h2 {
+    font-family: 'Wendy One', sans-serif;
     font-size: 28px;
 }
 
 h3 {
+    font-family: 'Wendy One', sans-serif;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 500;
     color: #0058A2; 
 }
 
 h4 {
+    font-family: 'Wendy One', sans-serif;
     font-size: 20px;
     font-weight: lighter;
     color: gray; 
 }
 
 h5 {
+    font-family: 'Wendy One', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #0058A2;
@@ -92,6 +125,7 @@ h5 {
     padding-bottom: 2%;
 }
 p {
+    font-family: 'ABeeZee', sans-serif;
     font-size: 24px;
 }
 
@@ -337,6 +371,7 @@ footer ul {
 
 aside {
     width: 40%;
+    max-height: 100%;
     padding-left: 1%;
     margin-left: 1%;
     padding-right: 1%;
@@ -347,7 +382,7 @@ aside {
 }
 
 .aparté img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
